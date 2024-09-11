@@ -1,1 +1,94 @@
 /*  your css code here. If applicable */
+/* Styling for the head */
+.head {
+  width: 200px;
+  height: 200px;
+  background-color: #ffc0cb;
+  border: 5px solid black;
+  border-radius: 50%;
+  margin: 20px auto;
+  position: relative;
+}
+
+/* Styling for the ears */
+.ear {
+  width: 50px;
+  height: 50px;
+  background-color: #ffc0cb;
+  border: 5px solid black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.ear:nth-child(1) {
+  top: -10px;
+  left: 10px;
+}
+
+.ear:nth-child(2) {
+  top: -10px;
+  right: 10px;
+}
+
+/* Styling for the eyes */
+.eye {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+}
+
+.eye:nth-child(1) {
+  left: 30px;
+}
+
+.eye:nth-child(2) {
+  right: 30px;
+}
+
+/* Styling for the pupils */
+.pupil {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Styling for the nose */
+.nose {
+  width: 100px;
+  height: 60px;
+  background-color: #f57187;
+  border: 2px solid black;
+  border-radius: 35%;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Styling for the nostrils */
+.nostril {
+  width: 25px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nostril:nth-child(1) {
+  left: 15px;
+}
+
+.nostril:nth-child(2) {
+  right: 15px;
+}
