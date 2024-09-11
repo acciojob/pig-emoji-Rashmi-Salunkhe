@@ -65,6 +65,7 @@
 
 /* Styling for the nose */
 .nose {
+  display: block; /* Ensures the element is block, as the test expects */
   width: 100px;
   height: 60px;
   background-color: #f57187;
