@@ -10,14 +10,16 @@
   position: relative;
 }
 
-/* Styling for the ears */
 .ear {
+  z-index: -1; /* Ensures ears are behind the head */
   width: 50px;
   height: 50px;
   background-color: #ffc0cb;
   border: 5px solid black;
   border-radius: 50%;
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .ear:nth-child(1) {
